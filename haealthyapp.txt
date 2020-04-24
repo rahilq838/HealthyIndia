@@ -1,0 +1,128 @@
+if (questions[index].question == 'Gender?')
+                    DropdownButton(
+                      items: dropGender,
+                      onChanged: null,
+                    ),
+                  if (questions[index].question != 'Gender?')
+                    DropdownButton(
+                      items: dropYesNo,
+                      onChanged: null,
+                    ),
+
+
+
+
+
+
+  void loadDropYesNo() {
+    dropYesNo.add(
+      DropdownMenuItem(
+        child: Text('Yes'),
+        value: 'Yes',
+      ),
+    );
+    dropYesNo.add(
+      DropdownMenuItem(
+        child: Text('No'),
+        value: 'No',
+      ),
+    );
+  }
+
+
+   SafeArea(
+              child: Text(
+                'Answer simple questions correctly',
+                style:
+                    TextStyle(color: Colors.white,fontSize: 20.0 ,fontWeight: FontWeight.bold),
+                textAlign: TextAlign.left,
+              ),
+            ),
+
+
+
+
+  void loadDropGender() {
+    dropGender.add(
+      DropdownMenuItem(
+        child: Text('Male'),
+        value: 'Male',
+      ),
+    );
+    dropGender.add(
+      DropdownMenuItem(
+        child: Text('Female'),
+        value: 'Female',
+      ),
+    );
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  return DropdownMenuItem(
+                            value: value,
+                            child: Text(value),
+                          );
+
+
+
+
+
+
+List<String> setDropItems(index){
+  if (questions[index].question == 'Gender?')
+    {
+      List<String> yesNo= ['Yes','No'];
+      return yesNo;
+    }
+  else{
+    List<String> yesNo= ['Male','Female'];
+  }
+}
+
+
+
+
+
+
+
+
+<String>['Yes', 'No']
+                            .map<DropdownMenuItem<String>>((String value) {
+                          return DropdownMenuItem(
+                            value: value,
+                            child: Text(value),
+                          );
+                        }).toList()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ width: double.infinity,
+          decoration: BoxDecoration(
+            gradient: LinearGradient(begin: Alignment.topCenter, colors: [
+              Colors.orange,
+              Colors.white,
+              Colors.green,
+            ]),
+          ),

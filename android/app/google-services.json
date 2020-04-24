@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "746813770646",
+    "firebase_url": "https://healthyindia838.firebaseio.com",
+    "project_id": "healthyindia838",
+    "storage_bucket": "healthyindia838.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746813770646:android:bd1be2f76c7f045a3aabb7",
+        "android_client_info": {
+          "package_name": "com.healthyindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746813770646-fbshbk4mbu9tn5j4ha9o9g1i3v7otto0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC0c9BjkrewVHyGazMeLbvEA6Ki--UK4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746813770646-fbshbk4mbu9tn5j4ha9o9g1i3v7otto0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

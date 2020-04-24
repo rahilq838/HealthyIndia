@@ -1,0 +1,8 @@
+  'Gender?' ,
+    'Age?',
+    'You have any Travel history from last 15 days?',
+    'inernational',
+    'Do you came in contact with a person that has been tested Covid-19 Positive ',
+    'Do you have cough?',
+    'Do you have Fever?',
+    'Are you sufferring from Breathlessness?'
